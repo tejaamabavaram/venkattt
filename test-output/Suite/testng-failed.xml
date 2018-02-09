@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test_firefox(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.journey.tests.FlightBookingSteps">
+        <methods>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+          <include name="closeApplication"/>
+          <include name="closeApplication"/>
+          <include name="testFlightBookingSteps"/>
+          <include name="createReport"/>
+        </methods>
+      </class> <!-- com.journey.tests.FlightBookingSteps -->
+    </classes>
+  </test> <!-- Test_firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

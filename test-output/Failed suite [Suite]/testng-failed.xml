@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="com.journey.tests.FlightBookingSteps">
+        <methods>
+          <include name="openApplication"/>
+          <include name="closeApplication"/>
+          <include name="testFlightBookingSteps"/>
+        </methods>
+      </class> <!-- com.journey.tests.FlightBookingSteps -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

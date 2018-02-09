@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="73525" started-at="2018-02-09T06:45:20Z" finished-at="2018-02-09T06:46:33Z">
+    <groups>
+    </groups>
+    <test name="Test_chrome" duration-ms="73525" started-at="2018-02-09T06:45:20Z" finished-at="2018-02-09T06:46:33Z">
+      <class name="com.journey.tests.FlightBookingSteps">
+        <test-method status="PASS" signature="createReport()[pri:0, instance:com.journey.tests.FlightBookingSteps@1324409e]" name="createReport" is-config="true" duration-ms="497" started-at="2018-02-09T12:15:19Z" finished-at="2018-02-09T12:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:com.journey.tests.FlightBookingSteps@1324409e]" name="openApplication" is-config="true" duration-ms="67158" started-at="2018-02-09T12:15:20Z" finished-at="2018-02-09T12:16:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testFlightBookingSteps()[pri:0, instance:com.journey.tests.FlightBookingSteps@1324409e]" name="testFlightBookingSteps" duration-ms="3197" started-at="2018-02-09T12:16:27Z" finished-at="2018-02-09T12:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightBookingSteps -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:com.journey.tests.FlightBookingSteps@1324409e]" name="closeApplication" is-config="true" duration-ms="1195" started-at="2018-02-09T12:16:32Z" finished-at="2018-02-09T12:16:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFlightBookingSteps status=SUCCESS method=FlightBookingSteps.testFlightBookingSteps()[pri:0, instance:com.journey.tests.FlightBookingSteps@1324409e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:com.journey.tests.FlightBookingSteps@1324409e]" name="flush" is-config="true" duration-ms="1115" started-at="2018-02-09T12:16:33Z" finished-at="2018-02-09T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- com.journey.tests.FlightBookingSteps -->
+    </test> <!-- Test_chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
